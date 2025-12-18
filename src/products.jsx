@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function products() {
-  return (
-    <div>products</div>
-  )
+function Products() {
+  return(
+   <div className=" w-full h-90 rounded-3xl border-red-50 bg-zinc-700">
+
+   </div>
+   ) 
 }
 
-export default products
+export default Products;
