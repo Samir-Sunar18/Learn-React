@@ -1,23 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-*{
+@theme {
+  --color-chocolate: #86563c;
+  --color-darkgreen: :
+}
+
+/* Your custom CSS below */
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;t
 }
-
-html, body{
-  width: 100%;
-  height: 100%;
-}
-
-.main{
-  width: 100%;
-  height: 100vh;
-  color: #fff;
-background-color: #456;
-}
-
-
